@@ -1,0 +1,46 @@
+# robots.txt – CaPhêViet.vn
+# Cập nhật: 2026-05-20
+
+# ══ Các crawler thông thường ══
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Crawl-delay: 1
+
+# ══ Google ══
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# ══ AI Crawlers – AIEO: Cho phép để tăng citation ══
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# ══ Sitemap ══
+Sitemap: https://capheviet.vn/sitemap.xml
